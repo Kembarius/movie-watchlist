@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>My watchlist</title>
+</head>
+<body>
+    <header class="header">
+        <div class="titles-wrapper">
+            <h1 class="main-title">My Watchlist</h1>
+            <a href="index.html"><p class="p">Search for movies</p></a>
+        </div>
+    </header>
+    <main id="main" class="main-watchlist">
+        <div class="main-placeholder">
+            <p class="watchlist-text-gray">Your watchlist is looking a little empty...</p>
+            <a class="white-text-wrapper" href="index.html">
+                <img class="icon-white" src="./images/icon-plus.png" alt="Plus icon">
+                <p class="watchlist-text-white">Let’s add some movies!</p>
+            </a>
+        </div>
+        <div id="film-results"><!-- Watchlisted movies are displayed --></div>
+    </main>
+    <script src="watchlist.js"></script>
+</body>
+</html>

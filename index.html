@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Find your film</title>
+</head>
+<body>
+    <header class="header">
+        <div class="titles-wrapper">
+            <h1 class="main-title">Find your film</h1>
+            <a href="watchlist.html"><p class="p">My Watchlist</p></a>
+        </div>
+        
+        <form id="search-form">
+            <div class="input-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input id="search-input" type="text" placeholder="Blade Runner">
+                <button class="main-search">Search</button>
+            </div>
+        </form>
+    </header>
+    <main id="main">
+        <div class="main-placeholder">
+            <img src="./images/Icon.png" alt="Movie Reel Icon">
+            <p>Start exploring</p>
+        </div>
+
+        <div id="film-results"><!-- Searched movies displayed here -->
+
+            <!-- <div class="movie-container">
+                <div class="poster-movie-info-wrapper">
+                    <img class="poster" src="./images/movie-poster-example.png" alt="">
+                    <div class="movie-info-wrapper">
+                        <div class="h2-rating-flex">
+                            <h2>Blade Runner</h2>
+                            <img class="star-icon" src="./images/star-icon.png" alt="Star icon">
+                            <span class="rating-number">8.1</span>
+                        </div>
+                        <div class="moive-details-flex">
+                            <p>116min</p>
+                            <p>Drama, Mystery, Sci-fi</p>
+                            <a class="white-text-wrapper" href="">
+                                <img class="icon-white" src="./images/Icon +.png" alt="Plus icon">
+                                <p class="watchlist-text-white">Watchlist</p>
+                            </a>
+                        </div>
+                        <p class="movie-plot">A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.</p>
+                    </div>
+                </div>
+                <hr>
+            </div> -->
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
