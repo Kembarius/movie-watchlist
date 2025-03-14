@@ -266,8 +266,8 @@ main {
 
 @media (max-width: 499px) {
     
-    main {
-        padding: 2em;
+    main, .main-watchlist {
+        padding: 3em 2em;
     }
 
     header {
@@ -288,7 +288,7 @@ main {
     }
 
     h1 {
-        font-size: 1.625rem;
+        font-size: 1.525rem;
     }
 
     header p {
@@ -296,7 +296,7 @@ main {
     }
 
     .movie-info-wrapper h2 {
-        font-size: .95rem;
+        font-size: .85rem;
     }
 
     .moive-details-flex {
@@ -312,7 +312,7 @@ main {
     }
 
     .movie-plot {
-        font-size: .8rem;
+        font-size: .75rem;
         color: #A5A5A5;
         line-height: 19px;
     }
