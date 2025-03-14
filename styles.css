@@ -267,15 +267,15 @@ main {
 @media (max-width: 499px) {
     
     main, .main-watchlist {
-        padding: 3em 2em;
+        padding: 3em 1em;
     }
 
     header {
-        padding: 4.25em 2em;
+        padding: 4.25em 1em;
     }
 
     #search-form {
-        padding: 0 2em;
+        padding: 0 1em;
     }
 
     .input-wrapper input {
@@ -292,7 +292,7 @@ main {
     }
 
     header p {
-        font-size: 0.7rem;
+        font-size: 0.85rem;
     }
 
     .movie-info-wrapper h2 {
@@ -309,6 +309,10 @@ main {
 
     .icon-white {
         width: .75rem;
+    }
+
+    .rating-number {
+        margin-left: -5px;
     }
 
     .movie-plot {
