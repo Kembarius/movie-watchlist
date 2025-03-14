@@ -317,4 +317,11 @@ main {
         line-height: 19px;
     }
 
+    .main-placeholder {
+        padding: 0 1em;
+    }
+
+    .main-placeholder p {
+        font-size: 1rem;
+    }
 }
